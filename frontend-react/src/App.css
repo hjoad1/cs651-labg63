@@ -1,0 +1,115 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+  color: #222;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #1d4ed8;
+  font-size: 36px;
+}
+
+header p {
+  color: #555;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 18px 0 8px;
+}
+
+input[type="file"] {
+  display: block;
+}
+
+.filename {
+  color: #555;
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 14px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  background: #2563eb;
+  color: white;
+  padding: 13px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  margin-top: 16px;
+  color: #555;
+}
+
+.error {
+  border-left: 5px solid #dc2626;
+  color: #991b1b;
+}
+
+.results {
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.results pre {
+  padding: 16px;
+  background: #172033;
+  color: #f8fafc;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.results code {
+  font-family: monospace;
+}

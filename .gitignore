@@ -28,3 +28,13 @@ env/
 build/
 dist/
 *.egg-info/
+
+# Node.js dependencies
+**/node_modules/
+
+# React production builds
+**/dist/
+
+# Environment variables and credentials
+.env
+**/.env
